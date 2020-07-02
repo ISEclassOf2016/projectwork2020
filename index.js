@@ -34,9 +34,3 @@ export const convertFlowTreeToSvg = (flowTree, printConfig) => {
 
     return shapesTree.print(printConfig);
 };
-
-function ClearFieldsX() {
-
-     document.getElementById("codeEditor").value = "";
-    
-}

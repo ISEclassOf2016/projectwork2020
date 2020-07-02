@@ -86,39 +86,16 @@
     <div class="container">
         <div class="column">
             <textarea id="codeEditor">
- /**
- * Binary search
- * @param {Array} list
- * @param {Number} element
- * @returns {number}
- */
-function indexSearch(list, element) {
-    let currentIndex,
-        currentElement,
-        minIndex = 0,
-        maxIndex = list.length - 1;
+                
+                 /**
+ * 
+ *TYPE CODE HERE
+ * 
+ **/
 
-    while (minIndex <= maxIndex) {
-        currentIndex = Math.floor((maxIndex + maxIndex) / 2);
-        currentElement = list[currentIndex];
-
-        if (currentElement === element) {
-            return currentIndex;
-        }
-
-        if (currentElement < element) {
-            minIndex = currentIndex + 1;
-        }
-
-        if (currentElement > element) {
-            maxIndex = currentIndex - 1;
-        }
-    }
-
-    return -1;
 }</textarea>
         </div>
-        <button id="ClearStuff" onclick="href='javascript:history.go(-1)';">BACK</button>
+        <button id="ClearStuff">BACK</button>
         <button id="downloadFile">DOWNLOAD SVG FILE</button>
         <div class="column">
             <p id="svgImage"></p>
